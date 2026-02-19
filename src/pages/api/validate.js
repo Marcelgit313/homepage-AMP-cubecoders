@@ -1,7 +1,7 @@
 import checkAndCopyConfig from "utils/config/config";
 import createLogger from "utils/logger";
 
-const configs = ["docker.yaml", "settings.yaml", "services.yaml", "bookmarks.yaml", "kubernetes.yaml", "proxmox.yaml"];
+const configs = ["ampInstance.yaml", "docker.yaml", "settings.yaml", "services.yaml", "bookmarks.yaml", "kubernetes.yaml", "proxmox.yaml"];
 const logger = createLogger("configValidationHandler");
 
 export default async function handler(req, res) {

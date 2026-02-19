@@ -5,6 +5,7 @@ import { join } from "path";
 import checkAndCopyConfig, { CONF_DIR } from "utils/config/config";
 
 const configs = [
+  "ampInstance.yaml",
   "docker.yaml",
   "settings.yaml",
   "services.yaml",
