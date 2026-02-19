@@ -47,7 +47,8 @@
         "load": "Load",
         "temp": "TEMP",
         "max": "Max",
-        "uptime": "UP"
+        "uptime": "UP",
+        "players": "Players"
     },
     "unifi": {
         "users": "Users",
